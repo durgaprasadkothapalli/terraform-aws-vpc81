@@ -54,3 +54,27 @@ variable "igw_tags" {
         error_message = "please provide 2 valid database subnet CIDR "
     }     
    }
+
+   variable "public_subnet_tags" {
+    default = {}
+     }
+
+
+   variable "private_subnet_tags" {
+    default = {}
+     }
+
+
+     variable "database_subnet_tags" {
+    default = {}
+     
+   }
+
+   variable "db_subnet_group_tags" {
+    default = {}   
+   }
+
+   variable "nat_gatway_tags" {
+    default = {}
+     
+   }
